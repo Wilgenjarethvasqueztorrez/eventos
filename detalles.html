@@ -20,22 +20,22 @@
     <p class="text-center text-lg">Rihanna World Tour</p>
     <!-- Generos -->
     <div class="flex items-center justify-center gap-2">
-   <div>
-    <span class="w-2 h-2 rounded-full bg-red-500 inline-flex"></span>
-    <span>pop</span>
-   </div>
+      <div>
+        <span class="w-2 h-2 rounded-full bg-red-500 inline-flex"></span>
+        <span>pop</span>
+      </div>
 
-   <div>
-    <span class="w-2 h-2 rounded-full bg-red-500 inline-flex"></span>
-    <span>Fest</span>
-   </div>
+      <div>
+        <span class="w-2 h-2 rounded-full bg-red-500 inline-flex"></span>
+        <span>Fest</span>
+      </div>
 
     </div>
   </main>
-  
+
   <!-- Slider (Pase de diapositivas) -->
   <!-- <div id="slider"></div> -->
- 
+
 
   <!-- Contenido de la aplicacion -->
   <main>
@@ -45,32 +45,93 @@
   <div id="barra"></div>
   <script type="module" src="src/js/main.js"></script>
 
-    <!-- iconos -->
-    <div class="inline-flex rounded-md shadow-sm" role="group">
-      <button type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-red-500 bg-slate-800 border border-slate-800 rounded-l-lg hover:text-white focus:z-10 focus:ring-2 focus:ring-white dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
-        </svg>
-        15 August
-      </button>
-      <button type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-red-500 bg-slate-800 border-t border-b border-slate-800 hover:text-white focus:z-10 focus:ring-2 focus:ring-white dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-        07:30 pm
-      </button>
-      <button type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-red-500 bg-slate-800 border-t border-b border-slate-800 hover:text-white focus:z-10 focus:ring-2 focus:ring-white dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-        </svg>
-        Luctus Center
-      </button>
-    </div>
+  <!-- iconos -->
+  <div class="grid grid-cols-3 gap-4 text-center leading-10 md-4 mx-5 max-w-1 rounded-md shadow-sm" role="group">
+    <button type="button"
+      class="inline-flex items-center px-4 py-2 text-sm font-medium text-red-500 bg-slate-800 border border-slate-800 rounded-l-lg hover:text-white focus:z-10 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+      </svg>
+      15 August
+    </button>
+    <button type="button"
+      class="inline-flex items-center px-4 py-2 text-sm font-medium text-red-500 bg-slate-800 border-t border-b border-slate-800 hover:text-white focus:z-10 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      07:30 pm
+    </button>
+    <button type="button"
+      class="inline-flex items-center px-4 py-2 text-sm font-medium text-red-500 bg-slate-800 border-t border-b border-slate-800 hover:text-white focus:z-10 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+      </svg>
+      Luctus Center
+    </button>
+  </div>
 
-    
-  
- 
+  <!-- Parte intermedia -->
+  <div class="padding: 35px;">
+    <font size="6" face="arial">
+      <h1 class="text-white">Mas videos</h1>
+    </font>
+  </div>
+
+  <div class="grid grid-cols-3 gap-4 text-center leading-10 md-4 mx-5 max-w-1 rounded-md shadow-sm" role="group">
+
+    <video class="w-full" autoplay controls>
+      <source src="/src/videos/Lift Me Up (From Black Panther_ Wakanda Forever)(720P_HD).mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video class="w-full" autoplay controls>
+      <source src="/src/videos/Rihanna - Diamonds(720P_HD).mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video class="w-full" autoplay controls>
+      <source src="/src/videos/Rihanna - Work (Explicit) ft. Drake(720P_HD).mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+
+
+  </div>
+
+  <!-- Parte final -->
+  <div class="gap-4 text-left leading-10 md-4 max-w-full p-6 bg-slate-800 border border-slate-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+
+    <a href="#">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
+        <font size="6">
+          Descripccion
+        </font>
+      </h5>
+    </a>
+    <h1 class="mb-3 font-normal text-white dark:text-white">
+      <font size="6">
+        !Es hora de emocionarse porque estamos contentos de anunciar que la superestrella mundial Rihanna se presentará
+        en concierto en nuestra ciudad en pocos meses¡
+      </font>
+    </h1>
+    <a href="#"
+      class="text-center w-full gap-4 leading-10 md-4 max-w-full inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-red-500 rounded-lg hover:bg-slate-400 focus:ring-2 focus:outline-none focus:ring-blue-300 dark:bg-white dark:hover:bg-white">
+      <font size="4">
+       <h1>Reservar ahora</h1>
+      </font>
+    </a>
+  </div>
+
+
+
 
 </body>
+
 </html>

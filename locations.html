@@ -15,22 +15,86 @@
   <!-- Texto superior -->
   <main>
     <!-- Imagen del artista -->
-    <img src="./src/imagenes/Rhiana.jpg" class="w-full">
+    <!-- Para no llenar de código repetitivo se crean las clases en el archivo style.css -->
+<!-- Se definen la clase fila, asiento, seleccionado y reservado -->
+<!-- Crear un contenedor para guardar las filas -->
 
-    <p class="text-center text-lg">Rihanna World Tour</p>
-    <!-- Generos -->
-    <div class="flex items-center justify-center gap-2">
-   <div>
-    <span class="w-2 h-2 rounded-full bg-red-500 inline-flex"></span>
-    <span>pop</span>
-   </div>
+<div class=" p-4 container">
+  <!-- Crear la primera fila -->
+  <div class="fila-1">
+    <div class="asiento">1A</div>
+    <div class="asiento reservado">2A</div>
+    <div class="asiento reservado">3A</div>
+    <div class="asiento">4A</div>
+    <div class="asiento">5A</div>
+    <div class="asiento">6A</div>
+  </div>
 
-   <div>
-    <span class="w-2 h-2 rounded-full bg-red-500 inline-flex"></span>
-    <span>Fest</span>
-   </div>
+  <!-- Segunda fila -->
+  <div class="fila">
+    <div class="asiento">1B</div>
+    <div class="asiento seleccionado">2B</div>
+    <div class="asiento seleccionado">3B</div>
+    <div class="asiento seleccionado">4B</div>
+    <div class="asiento">5B</div>
+    <div class="asiento">6B</div>
+    <div class="asiento">7B</div>
+  </div>
 
-    </div>
+<!-- Tercera fila -->
+  <div class="fila">
+    <div class="asiento">1C</div>
+    <div class="asiento reservado">2C</div>
+    <div class="asiento">3C</div>
+    <div class="asiento">4C</div>
+    <div class="asiento">5C</div>
+    <div class="asiento">6C</div>
+    <div class="asiento">7C</div>
+  </div>
+<!-- Cuarta fila -->
+  <div class="fila">
+    <div class="asiento">1D</div>
+    <div class="asiento">2D</div>
+    <div class="asiento">3D</div>
+    <div class="asiento">4D</div>
+    <div class="asiento reservado">5D</div>
+    <div class="asiento reservado">6D</div>
+    <div class="asiento">7D</div>
+  </div>
+
+<!-- Quinta fila -->
+  <div class="fila">
+    <div class="asiento">1E</div>
+    <div class="asiento">2E</div>
+    <div class="asiento">3E</div>
+    <div class="asiento reservado">4E</div>
+    <div class="asiento">5E</div>
+    <div class="asiento">6E</div>
+    <div class="asiento">7E</div>
+  </div>
+
+  <!-- Sexta fila -->
+  <div class="fila">
+    <div class="asiento reservado">1F</div>
+    <div class="asiento">2F</div>
+    <div class="asiento">3F</div>
+    <div class="asiento reservado">4F</div>
+    <div class="asiento">5F</div>
+    <div class="asiento">6F</div>
+    <div class="asiento">7F</div>
+  </div>
+  <!-- Séptima fila-->
+  <div class="fila">
+    <div class="asiento">1G</div>
+    <div class="asiento">2G</div>
+    <div class="asiento">3G</div>
+    <div class="asiento">4G</div>
+    <div class="asiento">5G</div>
+    <div class="asiento">6G</div>
+    <div class="asiento reservado">7G</div>
+  </div>
+</div>
+
   </main>
   
   <!-- Slider (Pase de diapositivas) -->
@@ -46,27 +110,7 @@
   <script type="module" src="src/js/main.js"></script>
 
     <!-- iconos -->
-    <div class="inline-flex rounded-md shadow-sm" role="group">
-      <button type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-red-500 bg-slate-800 border border-slate-800 rounded-l-lg hover:text-white focus:z-10 focus:ring-2 focus:ring-white dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
-        </svg>
-        15 August
-      </button>
-      <button type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-red-500 bg-slate-800 border-t border-b border-slate-800 hover:text-white focus:z-10 focus:ring-2 focus:ring-white dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-        07:30 pm
-      </button>
-      <button type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-red-500 bg-slate-800 border-t border-b border-slate-800 hover:text-white focus:z-10 focus:ring-2 focus:ring-white dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-        </svg>
-        Luctus Center
-      </button>
-    </div>
+   
 
     
   
