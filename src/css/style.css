@@ -18,7 +18,7 @@ header {
   }
   
   .asiento {
-    @apply cursor-pointer w-10 h-10 bg-gray-200 rounded-md;
+    @apply cursor-pointer w-10 h-10 border border-slate-400 bg-gray-200 rounded-md;
   }
   
   .reservado {
@@ -28,3 +28,36 @@ header {
   .seleccionado {
     @apply w-10 h-10 bg-red-500 text-white;
   }
+
+  .main {
+    border: rgb(243, 244, 246) 3px solid;
+    border-radius: 40px;
+    border-width: 10px 0px 100px;
+    padding: 10px;
+    background-color: rgb(243, 244, 246);
+}
+
+.indicadores {
+    @apply grid grid-cols-3 gap-20 text-center leading-10 mb-4 mx-auto max-w-lg;
+}
+
+.indicador {
+    @apply text-gray-500
+}
+
+.main2 {
+    @apply text-black leading-10 mb-4 mx-auto max-w-lg;
+}
+
+.main3 {
+    @apply text-gray-500;
+}
+
+.info {
+    @apply grid grid-cols-3 gap-20 text-center leading-3 mb-8 mx-auto max-w-lg;
+}
+
+.det {
+    @apply leading-6 mb-4 mx-auto max-w-lg;
+}
+
